@@ -1,0 +1,423 @@
+Client
+BattleInstanceData log:
+ - Seed: 2018667583
+ - Injected Skill: "AttackerInjectedSkills":" skill_new_onboarding_initial_stage_one"
+ - Region ID: 3be03213-2ccf-4d83-84af-3c41eed7ae42
+ - Global Data Version: local
+ - Stats Data Version: local
+ - Skills Data Version: local
+ - AI Data Version: local
+--- Scoring Rules ---
+ * (none)
+--- Left Team ---
+ * bugs_bunny|L:1|Q:1|E:1|Behavior:(none)|Region:7776e9d7-126f-4913-818e-96f920aa578a|Id:2c4ccae7-1698-49ec-a33a-252d622c6721|
+     - Gadgets Equipped:
+         + This character has no gadgets equipped.
+     - Synergies Available:
+         + This character has synergy data, but none of it was triggered in this battle.
+--- Right Team ---
+ * wile_e_coyote|L:1|Q:1|E:1|Behavior:onboarding_2_wile_e_coyote|Region:3be03213-2ccf-4d83-84af-3c41eed7ae42|Id:3d82e725-55da-4b87-8da6-68a360cb4a10|
+     - Gadgets Equipped:
+         + This character has no gadgets equipped.
+     - Synergies Available:
+         + This character has NO synergy data.
+ * road_runner|L:1|Q:1|E:1|Behavior:onboarding_2_road_runner|Region:3be03213-2ccf-4d83-84af-3c41eed7ae42|Id:bd6c3c6a-0201-437d-a30e-c634f39141e1|
+     - Gadgets Equipped:
+         + This character has no gadgets equipped.
+     - Synergies Available:
+         + This character has NO synergy data.
+--- Game Mode ---
+Campaign
+
+[BattleStartFlowEvent]
+<bugs_bunny> (L:1|Q:1|E:1) 
+Team: LEFT 
+Health: 111/111 
+Attack: 40/40 
+Defense: 36/36 
+Speed: 30/30 
+Critical Chance: 10%/10% 
+Dodge Chance: 0%/0% 
+Counter Chance: 0%/0% 
+Lifesteal: 0%/0% 
+Piercing: 0%/0% 
+Critical Damage: 0%/0% 
+Critical Defense: 0%/0% 
+Tenacity (Debuff Accuracy): 0%/0% 
+Debuff Resistance: 0%/0% 
+ActionTimer: 0 - Tags:
+  * character_bugs_bunny: 1 - Age: 0
+  * base_character_bugs_bunny: 1 - Age: 1
+  * group_region_forest: 1 - Age: 2
+  * tag_archetype_attacker: 1 - Age: 3
+  * group_race_rabbit: 1 - Age: 4
+  * group_theme_rural: 1 - Age: 5
+  * group_special_original: 1 - Age: 6
+  * tag_archetype_once_per_battle: 1 - Age: 7
+  * tag_character_once_per_battle: 1 - Age: 8
+  * tag_character_once_per_battle_two: 1 - Age: 9
+  * tag_relationship_once_per_battle: 1 - Age: 10
+  * tag_team_left: 1 - Age: 11
+  * game_mode_campaign: 1 - Age: 12
+  * slot_1: 1 - Age: 13
+
+ - Skills:
+  * (Active) skill_safety_safe_1 
+  * (Active) skill_wild_hare_1 
+  * (Active) skill_explosive_gift_4 
+  * (Friendship) skill_relationship_friendship_bugs_bunny 
+ --------------------------------------
+<wile_e_coyote> (L:1|Q:1|E:1) 
+Team: RIGHT 
+Health: 140/140 
+Attack: 70/70 
+Defense: 50/50 
+Speed: 41/41 
+Critical Chance: 10%/10% 
+Dodge Chance: 0%/0% 
+Counter Chance: 0%/0% 
+Lifesteal: 0%/0% 
+Piercing: 0%/0% 
+Critical Damage: 0%/0% 
+Critical Defense: 0%/0% 
+Tenacity (Debuff Accuracy): 0%/0% 
+Debuff Resistance: 0%/0% 
+ActionTimer: 0 - Tags:
+  * character_wile_e_coyote: 1 - Age: 0
+  * base_character_wile_e_coyote: 1 - Age: 1
+  * group_region_desert: 1 - Age: 2
+  * tag_archetype_attacker: 1 - Age: 3
+  * group_race_dog: 1 - Age: 4
+  * group_theme_war_and_pieces: 1 - Age: 5
+  * group_special_original: 1 - Age: 6
+  * tag_archetype_once_per_battle: 1 - Age: 7
+  * tag_character_once_per_battle: 1 - Age: 8
+  * tag_character_once_per_battle_two: 1 - Age: 9
+  * tag_relationship_once_per_battle: 1 - Age: 10
+  * tag_team_right: 1 - Age: 11
+  * game_mode_campaign: 1 - Age: 12
+  * slot_1: 1 - Age: 13
+
+ - Skills:
+  * (Active) skill_volatile_throw_1 
+  * (Nemesis) skill_relationship_nemesis_wile_e_coyote 
+  * (Friendship) skill_relationship_friendship_group_theme_war_and_pieces 
+  * (Friendship) skill_theme_war_and_pieces 
+  * (Passive) skill_quick_learner_1 
+ --------------------------------------
+<road_runner> (L:1|Q:1|E:1) 
+Team: RIGHT 
+Health: 135/135 
+Attack: 57/57 
+Defense: 47/47 
+Speed: 51/51 
+Critical Chance: 10%/10% 
+Dodge Chance: 0%/0% 
+Counter Chance: 0%/0% 
+Lifesteal: 0%/0% 
+Piercing: 0%/0% 
+Critical Damage: 0%/0% 
+Critical Defense: 0%/0% 
+Tenacity (Debuff Accuracy): 0%/0% 
+Debuff Resistance: 0%/0% 
+ActionTimer: 0 - Tags:
+  * character_road_runner: 1 - Age: 0
+  * base_character_road_runner: 1 - Age: 1
+  * group_region_desert: 1 - Age: 2
+  * tag_archetype_support: 1 - Age: 3
+  * group_race_bird: 1 - Age: 4
+  * group_theme_war_and_pieces: 1 - Age: 5
+  * group_special_original: 1 - Age: 6
+  * tag_archetype_once_per_battle: 1 - Age: 7
+  * tag_character_once_per_battle: 1 - Age: 8
+  * tag_character_once_per_battle_two: 1 - Age: 9
+  * tag_relationship_once_per_battle: 1 - Age: 10
+  * tag_team_right: 1 - Age: 11
+  * game_mode_campaign: 1 - Age: 12
+  * slot_2: 1 - Age: 13
+
+ - Skills:
+  * (Active) skill_runner_up_1 
+  * (Nemesis) skill_relationship_nemesis_road_runner 
+  * (Friendship) skill_relationship_friendship_group_theme_war_and_pieces 
+  * (Friendship) skill_theme_war_and_pieces 
+  * (Passive) skill_uncatchable_1 
+ --------------------------------------
+
+[CharacterToggleSkillFlowEvent] wile_e_coyote_r ON -> skill_relationship_friendship_group_theme_war_and_pieces
+[CharacterSkillPrankFlowEvent] wile_e_coyote_r (friendship) skill_relationship_friendship_group_theme_war_and_pieces
+Change stat (mult): wile_e_coyote_r - Stat: Attack - Amount: 10% x 70 = 7 (70 -> 77) 
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #buff_attack #buffed
+Change stat (mult): wile_e_coyote_r - Stat: Defense - Amount: 10% x 50 = 5 (50 -> 55) 
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #buff_defense #buffed
+Change stat (mult): wile_e_coyote_r - Stat: Speed - Amount: 10% x 41 = 4.1 (41 -> 45.1) 
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #buff_speed #buffed
+
+[CharacterToggleSkillFlowEvent] road_runner_r ON -> skill_relationship_friendship_group_theme_war_and_pieces
+[CharacterSkillPrankFlowEvent] road_runner_r (friendship) skill_relationship_friendship_group_theme_war_and_pieces
+Change stat (mult): road_runner_r - Stat: Attack - Amount: 10% x 57 = 5.7 (57 -> 62.7) 
+Received tags: [road_runner_r] -> [road_runner_r] #buff_attack #buffed
+Change stat (mult): road_runner_r - Stat: Defense - Amount: 10% x 47 = 4.7 (47 -> 51.7) 
+Received tags: [road_runner_r] -> [road_runner_r] #buff_defense #buffed
+Change stat (mult): road_runner_r - Stat: Speed - Amount: 10% x 51 = 5.1 (51 -> 56.1) 
+Received tags: [road_runner_r] -> [road_runner_r] #buff_speed #buffed
+
+[StateChangePrankFlowEvent] (BeforeBattleStart) -> (BattleStart)
+[CharacterSkillPrankFlowEvent] bugs_bunny_l (invisible) skill_new_onboarding_initial_stage_one
+Use skill: Perpetrator: bugs_bunny_l - Skill: skill_new_onboarding_skill_removal_stage_one
+Use skill: Perpetrator: bugs_bunny_l - Skill: skill_new_onboarding_skill_removal_player_characters
+Use skill: Perpetrator: bugs_bunny_l - Skill: skill_new_onboarding_stat_setup
+Use skill: Perpetrator: bugs_bunny_l - Skill: skill_new_onboarding_skill_setup_stage_one
+Use skill: Perpetrator: bugs_bunny_l - Skill: skill_new_onboarding_critical_setup
+Use skill: Perpetrator: bugs_bunny_l - Skill: skill_new_onboarding_stage_one_speed_setup
+
+[CharacterSkillPrankFlowEvent] bugs_bunny_l (invisible) skill_new_onboarding_skill_removal_stage_one
+Remove skill: Perp: bugs_bunny_l - Target: road_runner_r - Skill: skill_runner_up_1
+Remove skill: Perp: bugs_bunny_l - Target: wile_e_coyote_r - Skill: skill_volatile_throw_1
+
+[CharacterSkillPrankFlowEvent] bugs_bunny_l (invisible) skill_new_onboarding_skill_removal_player_characters
+Remove skill: Perp: bugs_bunny_l - Target: bugs_bunny_l - Skill: skill_safety_safe_1
+Remove skill: Perp: bugs_bunny_l - Target: bugs_bunny_l - Skill: skill_wild_hare_1
+
+[CharacterSkillPrankFlowEvent] bugs_bunny_l (invisible) skill_new_onboarding_stat_setup
+Change base stat value: bugs_bunny_l - Stat: Attack - Amount: 100% x 40 = -32 (40 -> 8) 
+Received tags: [bugs_bunny_l] -> [bugs_bunny_l] #debuff_attack #debuffed
+Change base stat value: bugs_bunny_l - Stat: Defense - Amount: 100% x 36 = -28.8 (36 -> 7.2) 
+Received tags: [bugs_bunny_l] -> [bugs_bunny_l] #debuff_defense #debuffed
+Change base stat value: bugs_bunny_l - Stat: MaxHealth - Amount: 100% x 111 = -110 (111 -> 1) 
+Received tags: [bugs_bunny_l] -> [bugs_bunny_l] #debuff_maxhealth #debuffed
+Change base stat value: bugs_bunny_l - Stat: Speed - Amount: 100% x 30 = -24 (30 -> 6) 
+Received tags: [bugs_bunny_l] -> [bugs_bunny_l] #debuff_speed #debuffed
+Change stat (flat): bugs_bunny_l - Stat: Attack - Amount: 57 (8 -> 57) 
+Received tags: [bugs_bunny_l] -> [bugs_bunny_l] #buff_attack #buffed
+Change stat (flat): bugs_bunny_l - Stat: Defense - Amount: 51 (7.2 -> 51) 
+Received tags: [bugs_bunny_l] -> [bugs_bunny_l] #buff_defense #buffed
+Change stat (flat): bugs_bunny_l - Stat: MaxHealth - Amount: 156 (1 -> 156) 
+Received tags: [bugs_bunny_l] -> [bugs_bunny_l] #buff_maxhealth #buffed
+Change stat (flat): bugs_bunny_l - Stat: Speed - Amount: 34 (6 -> 34) 
+Received tags: [bugs_bunny_l] -> [bugs_bunny_l] #buff_speed #buffed
+Change base stat value: road_runner_r - Stat: Attack - Amount: 100% x 57 = -51.3 (62.7 -> 11.4) 
+Received tags: [bugs_bunny_l] -> [road_runner_r] #debuff_attack #debuffed
+Change base stat value: road_runner_r - Stat: Defense - Amount: 100% x 47 = -42.3 (51.7 -> 9.4) 
+Received tags: [bugs_bunny_l] -> [road_runner_r] #debuff_defense #debuffed
+Change base stat value: road_runner_r - Stat: MaxHealth - Amount: 100% x 135 = -134 (135 -> 1) 
+Received tags: [bugs_bunny_l] -> [road_runner_r] #debuff_maxhealth #debuffed
+Change base stat value: road_runner_r - Stat: Speed - Amount: 100% x 51 = -45.9 (56.1 -> 10.2) 
+Received tags: [bugs_bunny_l] -> [road_runner_r] #debuff_speed #debuffed
+Change stat (flat): road_runner_r - Stat: Attack - Amount: 58 (11.4 -> 63.8) 
+Received tags: [bugs_bunny_l] -> [road_runner_r] #buff_attack #buffed
+Change stat (flat): road_runner_r - Stat: Defense - Amount: -1 (9.4 -> 9.4) 
+Received tags: [bugs_bunny_l] -> [road_runner_r] #buff_defense #buffed
+Change stat (flat): road_runner_r - Stat: MaxHealth - Amount: 40 (1 -> 40) 
+Received tags: [bugs_bunny_l] -> [road_runner_r] #buff_maxhealth #buffed
+Change stat (flat): road_runner_r - Stat: Speed - Amount: 28 (10.2 -> 30.8) 
+Received tags: [bugs_bunny_l] -> [road_runner_r] #buff_speed #buffed
+Change base stat value: wile_e_coyote_r - Stat: Attack - Amount: 100% x 70 = -63 (77 -> 14) 
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #debuff_attack #debuffed
+Change base stat value: wile_e_coyote_r - Stat: Defense - Amount: 100% x 50 = -45 (55 -> 10) 
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #debuff_defense #debuffed
+Change base stat value: wile_e_coyote_r - Stat: MaxHealth - Amount: 100% x 140 = -139 (140 -> 1) 
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #debuff_maxhealth #debuffed
+Change base stat value: wile_e_coyote_r - Stat: Speed - Amount: 100% x 41 = -36.9 (45.1 -> 8.2) 
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #debuff_speed #debuffed
+Change stat (flat): wile_e_coyote_r - Stat: Attack - Amount: 50 (14 -> 55) 
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #buff_attack #buffed
+Change stat (flat): wile_e_coyote_r - Stat: Defense - Amount: -1 (10 -> 10) 
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #buff_defense #buffed
+Change stat (flat): wile_e_coyote_r - Stat: MaxHealth - Amount: 100 (1 -> 100) 
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #buff_maxhealth #buffed
+Change stat (flat): wile_e_coyote_r - Stat: Speed - Amount: 22 (8.2 -> 24.2) 
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #buff_speed #buffed
+
+[CharacterSkillPrankFlowEvent] bugs_bunny_l (invisible) skill_new_onboarding_skill_setup_stage_one
+Grant skill: Perp: bugs_bunny_l - Target: wile_e_coyote_r - Skill: skill_new_onboarding_fake_skill_wile_e_coyote_one
+Grant skill: Perp: bugs_bunny_l - Target: wile_e_coyote_r - Skill: skill_new_onboarding_fake_skill_wile_e_coyote_two
+Grant skill: Perp: bugs_bunny_l - Target: bugs_bunny_l - Skill: skill_new_onboarding_fake_skill_bugs_bunny_one
+Grant skill: Perp: bugs_bunny_l - Target: bugs_bunny_l - Skill: skill_new_onboarding_fake_skill_bugs_bunny_two
+Grant skill: Perp: bugs_bunny_l - Target: road_runner_r - Skill: skill_new_onboarding_fake_skill_road_runner_one
+Grant skill: Perp: bugs_bunny_l - Target: road_runner_r - Skill: skill_new_onboarding_fake_skill_road_runner_two
+
+[CharacterSkillPrankFlowEvent] bugs_bunny_l (invisible) skill_new_onboarding_critical_setup
+Change stat (flat): bugs_bunny_l - Stat: CriticalChance - Amount: 1 (0.1 -> 0) 
+Received tags: [bugs_bunny_l] -> [bugs_bunny_l] #debuff_critical #debuffed
+Change stat (flat): wile_e_coyote_r - Stat: CriticalChance - Amount: 1 (0.1 -> 0) 
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #debuff_critical #debuffed
+Change stat (flat): road_runner_r - Stat: CriticalChance - Amount: 1 (0.1 -> 0) 
+Received tags: [bugs_bunny_l] -> [road_runner_r] #debuff_critical #debuffed
+
+[StateChangePrankFlowEvent] (BattleStart) -> (LateBattleStart)
+[StateChangePrankFlowEvent] (LateBattleStart) -> (Tick)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Left Team: *bugs_bunny_l ((34) 0 -> 102.34)*
+Right Team: wile_e_coyote_r ((24.2) 0 -> 72.842) | road_runner_r ((30.8) 0 -> 92.708)
+
+[StateChangePrankFlowEvent] (Tick) -> (TurnStart)
+Left Team: bugs_bunny_l (156/156)
+Right Team: wile_e_coyote_r (100/100) | road_runner_r (40/40)
+
+[TurnStartFlowEvent] Turn owner: bugs_bunny_l | Turn: 1
+[StateChangePrankFlowEvent] (TurnStart) -> (WaitForInput)
+[StateChangePrankFlowEvent] (WaitForInput) -> (Prank)
+[CharacterSkillPrankFlowEvent] bugs_bunny_l (active) skill_explosive_gift_4
+AOE Deals Damage Outcome: bugs_bunny_l - wile_e_coyote_r
+AOE Takes Damage Outcome: wile_e_coyote_r - bugs_bunny_l
+Damage: (bugs_bunny_l) -> (wile_e_coyote_r (53/100)); Attack (Base) 40 (Current) 57; SkillPower 90%; Attack with Variance 51.8187; Defense 10; Total Damage 47
+AOE Deals Damage Outcome: bugs_bunny_l - road_runner_r
+AOE Takes Damage Outcome: road_runner_r - bugs_bunny_l
+Damage: (bugs_bunny_l) -> (road_runner_r (0/40)); Attack (Base) 40 (Current) 57; SkillPower 90%; Attack with Variance 51.6119; Defense 9.4; Total Damage 47
+KO: road_runner_r
+Received tags: [bugs_bunny_l] -> [road_runner_r] #is_dead
+
+[KOPrankFlowEvent] KO => road_runner_r | Turn: 1
+[StateChangePrankFlowEvent] (Prank) -> (TurnEnd)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Left Team: bugs_bunny_l ((34) ?? -> 0)
+
+[CharacterToggleSkillFlowEvent] wile_e_coyote_r OFF -> skill_relationship_friendship_group_theme_war_and_pieces
+[OutOfTurnOutcomesPrankFlowEvent]
+!Change stat (mult): wile_e_coyote_r - Stat: Speed - Amount: -10% x 41 = -2.2 (24.2 -> 22) 
+!Expired tags [wile_e_coyote_r]: (#buff_speed #buffed)
+!Change stat (mult): wile_e_coyote_r - Stat: Defense - Amount: -10% x 50 = 0 (10 -> 10) 
+!Expired tags [wile_e_coyote_r]: (#buff_defense #buffed)
+!Change stat (mult): wile_e_coyote_r - Stat: Attack - Amount: -10% x 70 = -5 (55 -> 50) 
+!Expired tags [wile_e_coyote_r]: (#buff_attack #buffed)
+
+[StateChangePrankFlowEvent] (TurnEnd) -> (Tick)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Left Team: bugs_bunny_l ((34) 0 -> 42.84)
+Right Team: *wile_e_coyote_r ((22.0) 72.842 -> 100.562)* | road_runner_r ((30.8) 92.708 -> 92.708)
+
+[StateChangePrankFlowEvent] (Tick) -> (TurnStart)
+Left Team: bugs_bunny_l (156/156)
+Right Team: wile_e_coyote_r (53/100) | road_runner_r (0/40)
+
+[TurnStartFlowEvent] Turn owner: wile_e_coyote_r | Turn: 2
+[CharacterSkillPrankFlowEvent] wile_e_coyote_r (friendship) skill_theme_war_and_pieces
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #tag_war_and_pieces_storyline
+Grant special buff: Perp: wile_e_coyote_r - Target: wile_e_coyote_r - Skill: skill_theme_war_and_pieces_feedback
+
+[CharacterSkillPrankFlowEvent] wile_e_coyote_r (passive) skill_quick_learner_1
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #status_piercing_up #status_positive
+Added: PiercingUp (2) (wile_e_coyote_r) -> (wile_e_coyote_r)
+Status Effect (flat): wile_e_coyote_r - Stat: Piercing - Amount: 0.1 = 0.1 (0 -> 0.1)
+Change stat (flat): wile_e_coyote_r - Stat: CriticalChance - Amount: -0.05 (0 -> 0) 
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #buff_critical #buffed
+Change stat (mult): wile_e_coyote_r - Stat: Attack - Amount: 1% x 70 = 0.5 (50 -> 50.5) 
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #buff_attack #buffed
+
+[StateChangePrankFlowEvent] (TurnStart) -> (WaitForInput)
+[StateChangePrankFlowEvent] (WaitForInput) -> (Prank)
+[CharacterSkillPrankFlowEvent] wile_e_coyote_r (active) skill_new_onboarding_fake_skill_wile_e_coyote_two
+Damage: (wile_e_coyote_r) -> (bugs_bunny_l (58/156)); Attack (Base) 70 (Current) 50.5; SkillPower 250%; Attack with Variance 126.25; Defense 51; Total Damage 98
+Use skill: Perpetrator: wile_e_coyote_r - Skill: skill_new_onboarding_fake_skill_wile_e_coyote_two_aux
+
+[CharacterSkillPrankFlowEvent] wile_e_coyote_r (active) skill_new_onboarding_fake_skill_wile_e_coyote_two_aux
+
+[StateChangePrankFlowEvent] (Prank) -> (TurnEnd)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Right Team: wile_e_coyote_r ((22.0) ?? -> 0)
+
+[StateChangePrankFlowEvent] (TurnEnd) -> (Tick)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Left Team: *bugs_bunny_l ((34) 42.84 -> 102.34)*
+Right Team: wile_e_coyote_r ((22.0) 0 -> 38.500) | road_runner_r ((30.8) 92.708 -> 92.708)
+
+[StateChangePrankFlowEvent] (Tick) -> (TurnStart)
+Left Team: bugs_bunny_l (58/156)
+Right Team: wile_e_coyote_r (53/100) | road_runner_r (0/40)
+
+[TurnStartFlowEvent] Turn owner: bugs_bunny_l | Turn: 3
+[StateChangePrankFlowEvent] (TurnStart) -> (WaitForInput)
+[StateChangePrankFlowEvent] (WaitForInput) -> (Prank)
+[CharacterSkillPrankFlowEvent] bugs_bunny_l (active) skill_new_onboarding_fake_skill_bugs_bunny_one
+Damage: (bugs_bunny_l) -> (wile_e_coyote_r (1/100)); Attack (Base) 40 (Current) 57; SkillPower 100%; Attack with Variance 57; Defense 10; Total Damage 52
+
+[StateChangePrankFlowEvent] (Prank) -> (TurnEnd)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Left Team: bugs_bunny_l ((34) ?? -> 0)
+
+[StateChangePrankFlowEvent] (TurnEnd) -> (Tick)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Left Team: bugs_bunny_l ((34) 0 -> 95.20)
+Right Team: *wile_e_coyote_r ((22.0) 38.500 -> 100.100)* | road_runner_r ((30.8) 92.708 -> 92.708)
+
+[StateChangePrankFlowEvent] (Tick) -> (TurnStart)
+Left Team: bugs_bunny_l (58/156)
+Right Team: wile_e_coyote_r (1/100) | road_runner_r (0/40)
+
+[TurnStartFlowEvent] Turn owner: wile_e_coyote_r | Turn: 4
+[CharacterSkillPrankFlowEvent] wile_e_coyote_r (friendship) skill_theme_war_and_pieces
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #tag_war_and_pieces_storyline
+Grant special buff: Perp: wile_e_coyote_r - Target: wile_e_coyote_r - Skill: skill_theme_war_and_pieces_feedback
+
+[CharacterSkillPrankFlowEvent] wile_e_coyote_r (passive) skill_quick_learner_1
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #status_piercing_up #status_positive
+Added: PiercingUp (2) (wile_e_coyote_r) -> (wile_e_coyote_r)
+Status Effect (flat): wile_e_coyote_r - Stat: Piercing - Amount: 0.1 = 0.1 (0.1 -> 0.2)
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #status_piercing_up #status_positive
+Added: PiercingUp (2) (wile_e_coyote_r) -> (wile_e_coyote_r)
+Status Effect (flat): wile_e_coyote_r - Stat: Piercing - Amount: 0.1 = 0.1 (0.2 -> 0.3)
+Change stat (flat): wile_e_coyote_r - Stat: CriticalChance - Amount: -0.05 (0 -> 0) 
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #buff_critical #buffed
+Change stat (mult): wile_e_coyote_r - Stat: Attack - Amount: 1% x 70 = 0.5 (50.5 -> 51) 
+Received tags: [wile_e_coyote_r] -> [wile_e_coyote_r] #buff_attack #buffed
+
+[StateChangePrankFlowEvent] (TurnStart) -> (WaitForInput)
+[StateChangePrankFlowEvent] (WaitForInput) -> (Prank)
+[CharacterSkillPrankFlowEvent] wile_e_coyote_r (active) skill_new_onboarding_fake_skill_wile_e_coyote_one
+Damage: (wile_e_coyote_r) -> (bugs_bunny_l (25/156)); Attack (Base) 70 (Current) 51; SkillPower 80%; Attack with Variance 40.8; Defense 51; Total Damage 33
+
+[StateChangePrankFlowEvent] (Prank) -> (TurnEnd)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Right Team: wile_e_coyote_r ((22.0) ?? -> 0)
+
+[OutOfTurnOutcomesPrankFlowEvent]
+!Ended: PiercingUp (wile_e_coyote_r) -> (wile_e_coyote_r)
+!Status Effect (flat): wile_e_coyote_r - Stat: Piercing - Amount: -0.1 = -0.1 (0.3 -> 0.2)
+!Expired tags [wile_e_coyote_r]: (#status_piercing_up #status_positive)
+
+[StateChangePrankFlowEvent] (TurnEnd) -> (Tick)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Left Team: *bugs_bunny_l ((34) 95.20 -> 102.34)*
+Right Team: wile_e_coyote_r ((22.0) 0 -> 4.620) | road_runner_r ((30.8) 92.708 -> 92.708)
+
+[StateChangePrankFlowEvent] (Tick) -> (TurnStart)
+Left Team: bugs_bunny_l (25/156)
+Right Team: wile_e_coyote_r (1/100) | road_runner_r (0/40)
+
+[TurnStartFlowEvent] Turn owner: bugs_bunny_l | Turn: 5
+[StateChangePrankFlowEvent] (TurnStart) -> (WaitForInput)
+[StateChangePrankFlowEvent] (WaitForInput) -> (Prank)
+[CharacterSkillPrankFlowEvent] bugs_bunny_l (active) skill_new_onboarding_fake_skill_bugs_bunny_one
+Damage: (bugs_bunny_l) -> (wile_e_coyote_r (0/100)); Attack (Base) 40 (Current) 57; SkillPower 100%; Attack with Variance 57; Defense 10; Total Damage 52
+KO: wile_e_coyote_r
+Received tags: [bugs_bunny_l] -> [wile_e_coyote_r] #is_dead
+
+[KOPrankFlowEvent] KO => wile_e_coyote_r | Turn: 5
+[StateChangePrankFlowEvent] (Prank) -> (TurnEnd)
+[ActionTimerUpdateFlowEvent] (legend: unique_id ((speed) fromTurnTimer -> toTurnTimer)
+Left Team: bugs_bunny_l ((34) ?? -> 0)
+
+[StateChangePrankFlowEvent] (TurnEnd) -> (BeforeBattleEnd)
+[StateChangePrankFlowEvent] (BeforeBattleEnd) -> (BattleEnd)
+Left Team: bugs_bunny_l (25/156)
+Right Team: wile_e_coyote_r (0/100) | road_runner_r (0/40)
+
+[StateChangePrankFlowEvent] (BattleEnd) -> (None)
+{"AttackerTeam":[{"Identifier":"2c4ccae7-1698-49ec-a33a-252d622c6721","RegionIdentifier":"7776e9d7-126f-4913-818e-96f920aa578a","Level":1,"Quality":1,"Evolution":1}],"DefenderTeam":[{"Identifier":"3d82e725-55da-4b87-8da6-68a360cb4a10","RegionIdentifier":"3be03213-2ccf-4d83-84af-3c41eed7ae42","Level":1,"Quality":1,"Evolution":1},{"Identifier":"bd6c3c6a-0201-437d-a30e-c634f39141e1","RegionIdentifier":"3be03213-2ccf-4d83-84af-3c41eed7ae42","Level":1,"Quality":1,"Evolution":1}],"DefenderBehaviors":["onboarding_2_wile_e_coyote","onboarding_2_road_runner"],"BattleInputs":[{"Team":1,"CharacterId":"3d82e725-55da-4b87-8da6-68a360cb4a10","SkillId":"skill_explosive_gift_4"},{"Team":1,"CharacterId":"3d82e725-55da-4b87-8da6-68a360cb4a10","SkillId":"skill_new_onboarding_fake_skill_bugs_bunny_one"},{"Team":1,"CharacterId":"3d82e725-55da-4b87-8da6-68a360cb4a10","SkillId":"skill_new_onboarding_fake_skill_bugs_bunny_one"}],"BattleRegion":"3be03213-2ccf-4d83-84af-3c41eed7ae42","BattleWon":"True","Seed":"2018667583","IsCheating":"False", "AttackerInjectedSkills":" skill_new_onboarding_initial_stage_one"}
+
+Total Battle Turns: 5
+
+[Battle Log Info] Battle Validation Result:
+Battle Success: True
+Battle ErrorMessage: 
+Battle Winner: Team1
+Battle ScoringRulesResult: TotalScore = 0
+AttackerScore = 0
+DefenderScore = 0
+ScoringRules (Count = 0): 
+Battle Stars: 3
+Battle AchievementsResult: System.String[]Battle CheatType: None
+Battle validation result: player is NOT cheating
+
+

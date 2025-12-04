@@ -1,0 +1,90 @@
+{
+  "seed": 1912051171,
+  "playerId": "666b40b9-9c65-432f-b348-3ecc73016675",
+  "regionIdentifier": "3be03213-2ccf-4d83-84af-3c41eed7ae42",
+  "skillsIdentifier": "11028",
+  "statsIdentifier": "11028",
+  "battleInputs": [
+    {
+      "team": 1,
+      "characterId": "3d82e725-55da-4b87-8da6-68a360cb4a10",
+      "skillId": "skill_new_onboarding_fake_skill_bugs_bunny_one"
+    },
+    {
+      "team": 1,
+      "characterId": "3d82e725-55da-4b87-8da6-68a360cb4a10",
+      "skillId": "skill_explosive_gift_3"
+    }
+  ],
+  "leftTeam": [
+    {
+      "identifier": "2c4ccae7-1698-49ec-a33a-252d622c6721",
+      "level": 1,
+      "quality": 1,
+      "evolution": 1,
+      "priority": 0,
+      "boss": false,
+      "regionIdentifier": "7776e9d7-126f-4913-818e-96f920aa578a",
+      "behavior": null,
+      "power": 0,
+      "statsValuesList": null,
+      "boostMapList": null,
+      "displayAttributesList": null,
+      "lostHp": 0,
+      "promotion": 0,
+      "gadgets": null,
+      "gadgetSets": null,
+      "alive": true
+    }
+  ],
+  "rightTeam": [
+    {
+      "identifier": "3d82e725-55da-4b87-8da6-68a360cb4a10",
+      "level": 1,
+      "quality": 1,
+      "evolution": 1,
+      "priority": 0,
+      "boss": false,
+      "regionIdentifier": "3be03213-2ccf-4d83-84af-3c41eed7ae42",
+      "behavior": "onboarding_2_wile_e_coyote",
+      "power": 0,
+      "statsValuesList": null,
+      "boostMapList": null,
+      "displayAttributesList": null,
+      "lostHp": 0,
+      "promotion": 0,
+      "gadgets": null,
+      "gadgetSets": null,
+      "alive": true
+    },
+    {
+      "identifier": "bd6c3c6a-0201-437d-a30e-c634f39141e1",
+      "level": 1,
+      "quality": 1,
+      "evolution": 1,
+      "priority": 0,
+      "boss": false,
+      "regionIdentifier": "3be03213-2ccf-4d83-84af-3c41eed7ae42",
+      "behavior": "onboarding_2_road_runner",
+      "power": 0,
+      "statsValuesList": null,
+      "boostMapList": null,
+      "displayAttributesList": null,
+      "lostHp": 0,
+      "promotion": 0,
+      "gadgets": null,
+      "gadgetSets": null,
+      "alive": true
+    }
+  ],
+  "nullifyRps": false,
+  "injectedSkill": "skill_new_onboarding_initial_stage_one",
+  "winnerTeam": 1,
+  "attackerInjectedSkills": [
+    "skill_new_onboarding_initial_stage_one"
+  ],
+  "defenderInjectedSkills": [],
+  "gameMode": "pve",
+  "battleId": "554e0667-e4c4-4cd6-b9d4-670f822cfc3d",
+  "envStack": "dev3"
+}

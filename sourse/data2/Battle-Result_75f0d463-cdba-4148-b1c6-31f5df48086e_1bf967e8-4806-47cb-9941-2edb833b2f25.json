@@ -1,0 +1,193 @@
+{
+  "battleResult": {
+    "cheating": true,
+    "winner": -1,
+    "starsCount": -1,
+    "cheatedInformation": "Invalid skill! input.SkillId: skill_explosive_gift_4 | TurnOwner: bugs_bunny (2c4ccae7-1698-49ec-a33a-252d622c6721) | selectedTarget: wile_e_coyote (3d82e725-55da-4b87-8da6-68a360cb4a10) Download the complete battle log in S3: https://s3.console.aws.amazon.com/s3/object/cheated-battles/dev3/75f0d463-cdba-4148-b1c6-31f5df48086e_1bf967e8-4806-47cb-9941-2edb833b2f25",
+    "finishFlow": null,
+    "leftScoring": {},
+    "rightScoring": {},
+    "scoreDelta": 0,
+    "poweredAttackers": [
+      {
+        "identifier": "2c4ccae7-1698-49ec-a33a-252d622c6721",
+        "level": 9,
+        "quality": 4,
+        "evolution": 7,
+        "priority": 0,
+        "boss": false,
+        "regionIdentifier": "7776e9d7-126f-4913-818e-96f920aa578a",
+        "behavior": null,
+        "power": 1112,
+        "statsValuesList": [
+          {
+            "stat": 0,
+            "value": 75
+          },
+          {
+            "stat": 1,
+            "value": 68
+          },
+          {
+            "stat": 2,
+            "value": 206
+          },
+          {
+            "stat": 3,
+            "value": 42
+          }
+        ],
+        "boostMapList": null,
+        "displayAttributesList": null,
+        "lostHp": 0,
+        "promotion": 1,
+        "gadgets": null,
+        "gadgetSets": null,
+        "alive": true
+      },
+      {
+        "identifier": "d02aa072-bb39-40a2-a063-b5891bc7daa4",
+        "level": 9,
+        "quality": 4,
+        "evolution": 7,
+        "priority": 0,
+        "boss": false,
+        "regionIdentifier": "7776e9d7-126f-4913-818e-96f920aa578a",
+        "behavior": null,
+        "power": 1088,
+        "statsValuesList": [
+          {
+            "stat": 0,
+            "value": 75
+          },
+          {
+            "stat": 1,
+            "value": 63
+          },
+          {
+            "stat": 2,
+            "value": 161
+          },
+          {
+            "stat": 3,
+            "value": 50
+          }
+        ],
+        "boostMapList": null,
+        "displayAttributesList": null,
+        "lostHp": 0,
+        "promotion": 1,
+        "gadgets": null,
+        "gadgetSets": null,
+        "alive": true
+      }
+    ],
+    "poweredDefenders": [
+      {
+        "identifier": "3d82e725-55da-4b87-8da6-68a360cb4a10",
+        "level": 1,
+        "quality": 1,
+        "evolution": 1,
+        "priority": 0,
+        "boss": false,
+        "regionIdentifier": "3be03213-2ccf-4d83-84af-3c41eed7ae42",
+        "behavior": "onboarding_2_wile_e_coyote",
+        "power": 733,
+        "statsValuesList": [
+          {
+            "stat": 0,
+            "value": 70
+          },
+          {
+            "stat": 1,
+            "value": 50
+          },
+          {
+            "stat": 2,
+            "value": 140
+          },
+          {
+            "stat": 3,
+            "value": 41
+          }
+        ],
+        "boostMapList": null,
+        "displayAttributesList": null,
+        "lostHp": 0,
+        "promotion": 0,
+        "gadgets": null,
+        "gadgetSets": null,
+        "alive": true
+      },
+      {
+        "identifier": "bd6c3c6a-0201-437d-a30e-c634f39141e1",
+        "level": 1,
+        "quality": 1,
+        "evolution": 1,
+        "priority": 0,
+        "boss": false,
+        "regionIdentifier": "3be03213-2ccf-4d83-84af-3c41eed7ae42",
+        "behavior": "onboarding_2_road_runner",
+        "power": 710,
+        "statsValuesList": [
+          {
+            "stat": 0,
+            "value": 57
+          },
+          {
+            "stat": 1,
+            "value": 47
+          },
+          {
+            "stat": 2,
+            "value": 135
+          },
+          {
+            "stat": 3,
+            "value": 51
+          }
+        ],
+        "boostMapList": null,
+        "displayAttributesList": null,
+        "lostHp": 0,
+        "promotion": 0,
+        "gadgets": null,
+        "gadgetSets": null,
+        "alive": true
+      }
+    ],
+    "achievementsResult": [],
+    "battleResultLogData": "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"
+  },
+  "rawBattleResult": null,
+  "updateCheatStats": {
+    "@class": "br.com.aquiris.pepe.core.model.player.persisted.battle.cheat.PlayerCheatStats",
+    "configVersion": 0,
+    "identifier": "432dccb7-d543-4303-bb53-7dfb8b790502",
+    "lastModifiedOn": 1764534997895,
+    "createdOn": 1764499770150,
+    "typeName": "PlayerCheatStats",
+    "typeVersion": 4,
+    "deprecated": false,
+    "version": 7,
+    "playerId": "75f0d463-cdba-4148-b1c6-31f5df48086e",
+    "clientData": null,
+    "numberOfBattles": 7,
+    "numberOfCheatedBattles": 6,
+    "numberOfPvpBattles": 0,
+    "numberOfCheatedPvpBattles": 0,
+    "numberOfPveBattles": 7,
+    "numberOfCheatedPveBattles": 6,
+    "numberOfAcmeBattles": 0,
+    "numberOfCheatedAcmeBattles": 0,
+    "numberOfArenaBattles": 0,
+    "numberOfCheatedArenaBattles": 0,
+    "numberOfAllianceWarsBattles": 0,
+    "numberOfCheatedAllianceWarsBattles": 0,
+    "numberOfEnduranceTowerBattles": 0,
+    "numberOfCheatedEnduranceTowerBattles": 0,
+    "numberOfAcmeAllianceBattles": 0,
+    "numberOfCheatedAcmeAllianceBattles": 0
+  },
+  "historyUrl": null
+}

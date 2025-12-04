@@ -1,0 +1,54 @@
+{
+  "characters": [
+    {
+      "id": "bugs_bunny",
+      "name": "Bugs Bunny",
+      "base_character": "base_character_bugs_bunny",
+      "character_tag": "character_bugs_bunny",
+      "skills": [
+        "skill_new_onboarding_fake_skill_bugs_bunny_one",
+        "skill_new_onboarding_fake_skill_bugs_bunny_two",
+        "skill_relationship_friendship_bugs_bunny"
+      ],
+      "found_in": ["data1", "data2", "data3", "data4"]
+    },
+    {
+      "id": "wile_e_coyote",
+      "name": "Wile E. Coyote",
+      "base_character": "base_character_wile_e_coyote",
+      "character_tag": "character_wile_e_coyote",
+      "skills": [
+        "skill_new_onboarding_fake_skill_wile_e_coyote_one",
+        "skill_new_onboarding_fake_skill_wile_e_coyote_two",
+        "skill_new_onboarding_fake_skill_wile_e_coyote_two_aux",
+        "skill_relationship_nemesis_wile_e_coyote"
+      ],
+      "found_in": ["data1", "data2", "data3", "data4"]
+    },
+    {
+      "id": "road_runner",
+      "name": "Road Runner",
+      "base_character": "base_character_road_runner",
+      "character_tag": "character_road_runner",
+      "skills": [
+        "skill_new_onboarding_fake_skill_road_runner_one",
+        "skill_new_onboarding_fake_skill_road_runner_two",
+        "skill_relationship_nemesis_road_runner",
+        "skill_runner_up_1"
+      ],
+      "found_in": ["data1", "data2", "data3", "data4"]
+    },
+    {
+      "id": "sylvester_jr_fisherman",
+      "name": "Sylvester Jr. Fisherman",
+      "base_character": "base_character_sylvester_jr",
+      "character_tag": "character_sylvester_jr_fisherman",
+      "skills": [
+        "skill_new_onboarding_fake_skill_sylvester_jr_fisherman_one",
+        "skill_new_onboarding_fake_skill_sylvester_jr_fisherman_two",
+        "skill_relationship_friendship_sylvester_jr_fisherman"
+      ],
+      "found_in": ["data2"]
+    }
+  ]
+}
